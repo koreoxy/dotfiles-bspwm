@@ -1,0 +1,71 @@
+# OPEN TERMINAL
+alt + shift + Return
+	kitty
+
+# CLOSE WINDOW
+alt + shift + c 
+	bspc node -c
+
+# FOCUS ON THE NEXT WINDOW DOWN
+alt + j
+	bspc node -f south
+
+# FOCUS ON THE NEXT WINDOW UP
+alt + k
+	bspc node -f north
+
+# FOCUS ON THE NEXT WINDOW LEFT
+alt + h
+	bspc node -f west
+
+# FOCUS ON THE NEXT WINDOW RIGHT
+alt + l
+	bspc node -f east
+
+# SWAP WITH THE NEXT WINDOW LEFT
+alt + shift + h
+	bspc node -s west
+
+# SWAP WITH THE NEXT WINDOW RIGHT
+alt + shift + l
+	bspc node -s east
+
+# TOGGLE BETWEEN TILED AND FLOATING MODE
+alt + space
+	bspc node -t ~floating
+
+# TOGGLE FULLSCREEN
+alt + f
+	bspc node -t fullscreen
+
+# TOGGLE BAR VISIBILITY
+alt + b
+	polybar-msg cmd toggle &
+
+# QUIT BSPWM
+alt + shift + q
+	bspc quit
+
+# SWITCH TO DESKTOP 1-9
+alt + {1-9}
+	bspc desktop -f ^{1-9}
+
+# SEND FOCUSED WINDOW TO DESKTOP 1-9
+alt + shift + {1-9}
+	bspc node -d ^{1-9}
+
+# OPEN FILE MANAGER
+super + e
+	thunar
+
+# PROGRAM LAUNCHER
+alt + p
+	dmenu_run
+
+# RESIZE WINDOW LEFT
+alt + ctrl + h
+	bspc node -z left -20 0
+
+# RESIZE WINDOW RIGHT
+alt + ctrl + l
+	bspc node -z right 20 0
