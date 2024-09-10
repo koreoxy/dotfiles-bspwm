@@ -1,6 +1,13 @@
-![2](https://github.com/user-attachments/assets/6bd1d6a6-27d0-4986-8a21-c76078e24de6)
+# Showcase
+## Default
+![3](https://github.com/user-attachments/assets/96650517-4191-4888-9205-e04721f61e4c)
 
-Source Background Image : https://www.artstation.com/artwork/aYx4W0
+## With Picom
+![4](https://github.com/user-attachments/assets/269de438-c3da-4856-98f0-dc2ce9b8f6e3)
+
+
+
+[Background Image](https://www.artstation.com/artwork/aYx4W0)
 
 # My Colors Theme
 <table>
